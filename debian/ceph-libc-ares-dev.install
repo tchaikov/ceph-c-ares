@@ -1,0 +1,5 @@
+opt/ceph/include/*
+opt/ceph/lib/*/lib*.a
+opt/ceph/lib/*/lib*.so
+opt/ceph/lib/*/pkgconfig/*
+opt/ceph/share/man/*

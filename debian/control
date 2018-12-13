@@ -9,11 +9,10 @@ Vcs-Git: https://salsa.debian.org/debian/c-ares.git
 Homepage: https://c-ares.haxx.se/
 
 
-Package: libc-ares-dev
+Package: ceph-libc-ares-dev
 Section: libdevel
 Architecture: any
-Conflicts: libares-dev
-Depends: libc-ares2 (= ${binary:Version}),
+Depends: ceph-libc-ares2 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: same
@@ -28,10 +27,8 @@ Description: asynchronous name resolver - development files
  .
  This package contains development files (headers and static libraries).
 
-Package: libc-ares2
-Conflicts: libcares2
+Package: ceph-libc-ares2
 Architecture: any
-Replaces: libc-ares1
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Multi-Arch: same

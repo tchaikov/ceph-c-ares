@@ -6,4 +6,4 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow
 	dh $@ --with autoreconf
 
 override_dh_auto_configure:
-	dh_auto_configure -- --enable-shared --enable-symbol-hiding
+	dh_auto_configure -- --enable-shared --enable-symbol-hiding --prefix=/opt/ceph
