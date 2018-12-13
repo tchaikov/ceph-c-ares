@@ -1,0 +1,6 @@
+Name: c-ares
+Contact: c-ares@cool.haxx.se
+Homepage: http://c-ares.haxx.se/
+Repository: git://github.com/bagder/c-ares.git
+Repository-Browse: https://github.com/bagder/c-ares
+Watch: http://c-ares.haxx.se/download/ c-ares-([\d\.]*).tar.gz
